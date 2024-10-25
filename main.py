@@ -24,3 +24,21 @@ def floor_input():
     elif floor_type == "tile":
         floor_type = float(4.99)
     return floor_type
+
+# Purpose:  [what problem does the function solve?]
+# Parameters: [list with purpose in the same order they appear in the function header]
+# Return: [return value, it's type, and what it represents]
+def dimension_input():
+    length = input("Please enter the length of your room in feet to the nearest foot: ")
+    while not length.isdigit():
+        length = input("Please enter the length of your room in feet to the nearest foot: ")
+    length = int(length)
+
+    width = input("Please enter the width of your room in feet to the nearest foot: ")
+    while not width.isdigit():
+        width = input("Please enter the width of your room in feet to the nearest foot: ")
+    width = int(width)
+    area = length * width
+    return area
+
+print(dimension_input())
