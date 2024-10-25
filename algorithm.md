@@ -25,6 +25,7 @@ total_cost
 3. multiply floor_input by room_area and save it in the 
 variable room_cost
 
+
 - **Name:dimension_input**
 - **Parameters:**
 - **Return: area**
