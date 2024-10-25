@@ -1,11 +1,11 @@
 # Programmers:  Donovan, Cameron
-# Course:  CS151, professor zee
-# Due Date: oct 30, 2024
+# Course:  CS151, Professor Zee
+# Due Date: Oct 30, 2024
 # Programming Assignment:  lab 7
 # Problem Statement:
 # Data In: width, length, flooring type
 # Data Out: cost for each room, overall cost
-# Credits:
+# Credits: basic area formula
 # Display the purpose of the program
 
 # Purpose:  [what problem does the function solve?]
