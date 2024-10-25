@@ -17,12 +17,12 @@ total_cost
 
    
 - **Name: room_cost**
-- **Parameters: floor_type, area**
+- **Parameters:**
 - **Return:**
 - **Algorithm:**
 1. call dimension_input and set it to room_area
-2. call floor_input and set it to floor_cost
-3. multiply floor_input by room_area and save it in the 
+2. call floor_input and set it to floor_material
+3. multiply floor_material by room_area and save it in the 
 variable room_cost
 
 
