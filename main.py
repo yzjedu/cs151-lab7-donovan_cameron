@@ -12,11 +12,14 @@
 # Parameters: [list with purpose in the same order they appear in the function header]
 # Return: [return value, it's type, and what it represents]
 def floor_input():
+    #
     floor_type = input("Please enter the type of floor you would like to use: ")
     floor_type = floor_type.lower().strip()
     while floor_type != "carpet" and floor_type != "hardwood" and floor_type != "tile":
         floor_type = input("Please enter the type of floor you would like to use: ")
         floor_type = floor_type.lower().strip()
+
+    #
     if floor_type == "carpet":
         floor_type = float(1.39)
     elif floor_type == "hardwood":
@@ -29,16 +32,19 @@ def floor_input():
 # Parameters: [list with purpose in the same order they appear in the function header]
 # Return: [return value, it's type, and what it represents]
 def dimension_input():
+    #
     length = input("Please enter the length of your room in feet to the nearest foot: ")
     while not length.isdigit():
         length = input("Please enter the length of your room in feet to the nearest foot: ")
     length = int(length)
 
+    #
     width = input("Please enter the width of your room in feet to the nearest foot: ")
     while not width.isdigit():
         width = input("Please enter the width of your room in feet to the nearest foot: ")
     width = int(width)
 
+    #
     area = length * width
     return area
 
@@ -55,6 +61,7 @@ def room_cost():
 # Parameters: [list with purpose in the same order they appear in the function header]
 # Return: [return value, it's type, and what it represents]
 def main():
+    #
     print('In this program you can calculate the cost it would be to pay for each room and also all of them in total\n'
           'given the dimensions and floor material of your 5 rooms')
     print('Please input your information for your first room')
@@ -68,6 +75,8 @@ def main():
     print('Please input your information for your fifth room')
     room5 = room_cost()
     total_cost = room1 + room2 + room3 + room4 + room5
+
+    #
     print('Your first room costs $', room1)
     print('Your second room costs $', room2)
     print('Your third room costs $', room3)
@@ -76,4 +85,5 @@ def main():
     print('Your total is $', total_cost)
     print('Thank you for using our program! Have a nice day!')
 
+#
 main()
