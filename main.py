@@ -61,7 +61,7 @@ def room_cost():
 # Parameters: none
 # Return: none
 def main():
-    #
+    #output request for information and call functions
     print('In this program you can calculate the cost it would be to pay for each room and also all of them in total\n'
           'given the dimensions and floor material of your 5 rooms')
     print('Please input your information for your first room')
@@ -76,7 +76,7 @@ def main():
     room5 = room_cost()
     total_cost = room1 + room2 + room3 + room4 + room5
 
-    #
+    #output individual room cost and total room cost
     print('Your first room costs $', room1)
     print('Your second room costs $', room2)
     print('Your third room costs $', room3)
@@ -85,5 +85,5 @@ def main():
     print('Your total is $', total_cost)
     print('Thank you for using our program! Have a nice day!')
 
-#
+# call main function
 main()
