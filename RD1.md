@@ -1,13 +1,14 @@
-# Reflection Document
+ENCRYPTED:
+# Mzagzxodji Yjxphzio
 
-* Drive Full Name  : Cameron
-* Partner Full Name: Donovan
-* Student ID: 1905032
+* Ymdqz Apgg Ivhz  : Xvhzmji
+* Kvmoizm Apgg Ivhz: Yjijqvi
+* Nopyzio DY: 1905032
 
 
-What were you supposed to learn/accomplish? using functions to simplify calculations
+Rcvo rzmz tjp npkkjnzy oj gzvmi/vxxjhkgdnc? pndib apixodjin oj ndhkgdat xvgxpgvodjin
 
-Did your results match what you expected to get? yes
-Did you try using various test cases, or extreme test cases? yes
+Ydy tjpm mznpgon hvoxc rcvo tjp zskzxozy oj bzo? tzn
+Ydy tjp omt pndib qvmdjpn ozno xvnzn, jm zsomzhz ozno xvnzn? tzn
 
-What was it like working with your partner? it was good 
+Rcvo rvn do gdfz rjmfdib rdoc tjpm kvmoizm? do rvn bjjy 
